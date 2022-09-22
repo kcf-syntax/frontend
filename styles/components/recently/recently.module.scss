@@ -1,0 +1,21 @@
+
+.swiper {
+  width: 100%;
+  background: transparent;
+  height: 200px;
+}
+
+.item {
+  background: white;
+  max-width: 150px;
+  height: 200px;
+  margin: auto 0.5rem;
+  border-radius: 25px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+}

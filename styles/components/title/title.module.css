@@ -1,0 +1,20 @@
+.box {
+  margin: auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  color: #464646;
+}
+
+/*# sourceMappingURL=title.module.css.map */

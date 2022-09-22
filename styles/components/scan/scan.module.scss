@@ -1,0 +1,42 @@
+
+.box {
+  width: 100%;
+  margin: auto;
+  margin-top: 1rem;
+  height: auto;
+  background: white;
+  border-radius: 25px;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.scan {
+  width: calc(100% - 4rem);
+  height: 150px;
+  margin: 2rem auto;
+  box-shadow: 0 5px 10px 7px rgba(58, 255, 78, 0.3);
+  border-radius: 25px;
+  background: rgb(62, 255, 62);
+  background: linear-gradient(90deg, rgba(62, 255, 62, 1) 0%, rgb(20, 255, 160) 100%);
+  border: 1px solid #00ef8f;
+  cursor: pointer;
+}
+
+.scan_start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.scan_text {
+  color: #094200;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-right: 10px;
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+  user-select: none;
+}

@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_text {
+  line-height: 60px;
+  color: black;
+  float: left;
+  font-weight: 600;
+  font-size: 1.25rem;
+  user-select: none;
+}
+
+.icon {
+  float: right;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=header.module.css.map */

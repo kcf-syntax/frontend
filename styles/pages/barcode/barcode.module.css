@@ -1,0 +1,96 @@
+.code_info {
+  font-weight: 500;
+  color: #7e7e7e;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.code_input {
+  width: 100%;
+  margin: auto;
+  margin-top: 1rem;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid #1ac200;
+  padding: 1.5rem;
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 700;
+  font-family: "pretendard";
+  letter-spacing: 7px;
+  transition: all 0.3s;
+}
+.code_input:focus {
+  outline: none;
+}
+
+.hide {
+  display: none;
+  transition: all 0.3s;
+}
+
+.bar {
+  height: 0;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: calc(100% - 5rem);
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+}
+
+.camera_button {
+  height: 100px;
+  width: 100%;
+  background: white;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 1rem;
+  background: linear-gradient(90deg, rgb(138, 255, 138) 0%, rgb(42, 218, 149) 100%);
+  border: 1px solid #43ec56;
+}
+.camera_button input[type=file] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.label {
+  vertical-align: center;
+  user-select: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 100px;
+}
+
+.code_warn {
+  font-size: 0.85rem;
+  color: #7e7e7e;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.button {
+  font-weight: 600;
+  width: auto;
+  background: rgba(78, 255, 65, 0.7);
+  float: right;
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  color: #044400;
+  vertical-align: center;
+  display: flex;
+  margin-top: 1rem;
+  user-select: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=barcode.module.css.map */
