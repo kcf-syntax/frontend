@@ -93,4 +93,12 @@
   cursor: pointer;
 }
 
+.a {
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
 /*# sourceMappingURL=barcode.module.css.map */
